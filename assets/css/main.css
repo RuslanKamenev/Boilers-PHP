@@ -1,0 +1,89 @@
+.full-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form {
+    margin: 0;
+}
+
+.consumption-input-form {
+    padding: 4px 0;
+}
+
+.consumption-input-form input{
+    margin: 8px 0 0 0;
+}
+
+.boiler-consumption-result {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#boilers-consumption-table {
+    display: flex;
+    padding: 20px;
+    width: auto;
+    justify-content: center;
+}
+
+.table-title {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.boiler-column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.boiler-title {
+    display: flex;
+    justify-content: center;
+}
+
+.boiler-consumption {
+    display: flex;
+    padding: 5px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.consumption-selected {
+    background-color: chartreuse;
+}
+
+.consumption-not-selected {
+    background-color: lightgray;
+}
+
+.boilers-table {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.boiler-table {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boiler-name {
+    padding: 4px;
+}
+
+#add-boiler {
+    margin: 10px 0;
+}
